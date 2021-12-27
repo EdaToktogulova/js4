@@ -71,3 +71,4 @@ function colorfulText(text, color) {
 var color = randomColor(); //red
 colorfulText("Hello world!", color);
 colorfulText("Bye world!", color);
+
