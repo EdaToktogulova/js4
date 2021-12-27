@@ -57,20 +57,29 @@ var bottleVol = calculateCylinderVolume(3, 10);
 // var number = Math.random();
 // document.write(number * 100);
 
-function randomColor(text) {
-    var red = Math.random() * 255;
-    var blue = Math.random() * 255;
-    var green = Math.random() * 255;
+// function randomColor(text) {
+//     var red = Math.random() * 255;
+//     var blue = Math.random() * 255;
+//     var green = Math.random() * 255;
 
-    return 'rgb(' + red + ',' + green + ',' + blue + ')';
-}
-function colorfulText(text, color) {
-    document.write('<h1 style="color: ' + color + ';">' + text + '</h1>');
-}
+//     return 'rgb(' + red + ',' + green + ',' + blue + ')';
+// }
+// function colorfulText(text, color) {
+//     document.write('<h1 style="color: ' + color + ';">' + text + '</h1>');
+// }
 
-var color = randomColor(); //red
-colorfulText("Hello world!", color);
-colorfulText("Bye world!", color);
-colorfulText("Hi world!", color);
-colorfulText("Toktogulova", color);
-colorfulText("123456789", color);
+// var color = randomColor(); //red
+// colorfulText("Hello world!", color);
+// colorfulText("Bye world!", color);
+// colorfulText("Hi world!", color);
+// colorfulText("Toktogulova", color);
+// colorfulText("123456789", color);
+
+
+function getColorUsername() {
+    let username = prompt("What't your name?")
+    let color = prompt("What color?")
+    let colorfulName = 'Welcome ' + ' <p style = "color: ' + color + ';">' + username + '</p>';
+    document.write(colorfulName);
+}
+getColorUsername()
