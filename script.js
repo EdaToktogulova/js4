@@ -44,12 +44,12 @@ var bottleVol = calculateCylinderVolume(3, 10);
 // document.write("<h1>Bye world!</h1>");
 // document.write("<p>Goodbye world!</p>");
 
-function countdown(number) {
-    for (let i = number; i > 0; i--) {
-        document.write(i + " ")
-    }
-    document.write("<br>");
-}
+// function countdown(number) {
+//     for (let i = number; i > 0; i--) {
+//         document.write(i + " ")
+//     }
+//     document.write("<br>");
+// }
 // countdown(5);
 // countdown(15);
 // countdown(prompt("Enter the number!", 100));
