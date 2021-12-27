@@ -4,7 +4,7 @@
 // cookDinner
 // finishmathHomework
 
-function callFreand(friendsName) {
+function callFriend(friendsName) {
     console.log(friendsName);
     console.log('Pick up the phone');
     console.log('Type in the number');
@@ -12,6 +12,6 @@ function callFreand(friendsName) {
     console.log('Wait for the answer');
 }
 
-callFreand("Bakyt");
-callFreand("Akjol");
-callFreand("Seitek");
+callFriend("Bakyt");
+callFriend("Akjol");
+callFriend("Seitek");
