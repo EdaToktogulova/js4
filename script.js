@@ -72,4 +72,4 @@ var color = randomColor(); //red
 colorfulText("Hello world!", color);
 colorfulText("Bye world!", color);
 colorfulText("Hi world!", color);
-colorfulText("Hiii");
+colorfulText("Toktogulova", color);
