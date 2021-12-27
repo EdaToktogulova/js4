@@ -17,7 +17,7 @@ function callFriend(friendsName = "Bakyt") {
 // callFriend("Seitek");
 // callFriend("");
 
-function calculateRectArea (a, b) {
+function calculateRectArea(a, b) {
     console.log(a * b);
 }
 
@@ -30,7 +30,7 @@ function calculateCylinderVolume(r, h) {
 }
 
 var smallGlassVol = calculateCylinderVolume(3, 4);
-var bottleVol = calculateCylinderVolume (3, 10);
+var bottleVol = calculateCylinderVolume(3, 10);
 
 // console.log(smallGlassVol);
 // console.log(bottleVol);
@@ -45,7 +45,7 @@ var bottleVol = calculateCylinderVolume (3, 10);
 // document.write("<p>Goodbye world!</p>");
 
 function countdown(number) {
-    for (let i = number; i > 0; i --) {
+    for (let i = number; i > 0; i--) {
         document.write(i + " ")
     }
     document.write("<br>");
