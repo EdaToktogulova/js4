@@ -73,3 +73,4 @@ colorfulText("Hello world!", color);
 colorfulText("Bye world!", color);
 colorfulText("Hi world!", color);
 colorfulText("Toktogulova", color);
+colorfulText("123456789", color);
